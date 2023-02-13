@@ -230,7 +230,14 @@ section{
         }
     }
 }
- 
+
+//footer content
+
+.footer{
+    text-align: center;
+
+}
+
 
 /*About*/
 
@@ -630,6 +637,7 @@ section{
                 }
             }
         }
+        
     }
 
     .right-contact{
@@ -718,6 +726,7 @@ section{
 .main-title{
     text-align: center;
     h2{
+        text-align: center;
         position: relative;
         text-transform: uppercase;
         font-size: 4rem;
@@ -739,6 +748,14 @@ section{
     }
 }
 
+.footer{
+    text-align: center;
+    padding-top: 5rem;
+    .developer{
+        color:var(--color-secondary);
+        text-transform: uppercase;
+    }
+}
 
 
 @import './media';
